@@ -8,7 +8,7 @@ function scrollUp(){
         window.requestAnimationFrame(scrollUp);
         window.scrollTo (0, currentScroll - (currentScroll / 10));
     }
-}
+}    const currentScroll = document.documentElement.scrollTop;
 
 
 buttonUp = document.getElementById("button-up");
@@ -67,3 +67,4 @@ body {
   justify-content: center;
   height: 100vh;
 }
+
